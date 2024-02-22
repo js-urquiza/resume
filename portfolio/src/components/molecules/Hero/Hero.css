@@ -1,0 +1,32 @@
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 32px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+  text-wrap: balance;
+}
+
+.hero img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 128px;
+  border-radius: 16px;
+}
