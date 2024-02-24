@@ -121,7 +121,25 @@
     "reference": "Reference…"
   }],
   "projects": [{
-    "name": "Project",
+    "name": "Alquiler24",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Alquiler24 is a web application designed to address the challenges of rental management in an environment characterized by constant changes and high inflation, such as that of Argentina. Given the diverse types of rental agreements, Alquiler24 enables users to track each contract with its specific details and update it according to price increases.",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  },{
+    "name": "Supermercado Alcer",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  },{
+    "name": "Ecommerce",
     "startDate": "2019-01-01",
     "endDate": "2021-01-01",
     "description": "Description...",

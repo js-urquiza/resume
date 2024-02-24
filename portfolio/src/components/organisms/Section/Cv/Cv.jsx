@@ -5,6 +5,7 @@ import Hero from '../../../molecules/Hero/Hero'
 import About from '../../../molecules/About/About'
 import Experience from '../../../molecules/Experience/Experience'
 import Skills from '../../../molecules/Skills/Skills'
+import Projects from '../../../molecules/Projects/Projects'
 
 const Cv = () => {
   
@@ -15,6 +16,7 @@ const Cv = () => {
         <About data={cv.basics} />
         <Experience data={cv.work} />
         <Skills data={cv.skills} />
+        <Projects data={cv.projects} />
       </main>
     </>
   )

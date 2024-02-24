@@ -11,7 +11,7 @@ const Skills = (props) => {
       <ul>
         {
           data.map(({ name }) => {
-            return <li key={name}>{name}</li>
+            return <li key={name.index}>{name}</li>
           })
         }
       </ul>

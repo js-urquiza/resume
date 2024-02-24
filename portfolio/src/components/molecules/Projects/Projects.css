@@ -1,0 +1,39 @@
+.projects h3 {
+    color: #213547;
+    margin-bottom: 8px;
+}
+
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.projects article {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    padding: 16px;
+    height: 100%;
+}
+
+.projects header {
+    flex: 1; /* Hace que el header ocupe todo el espacio y empuja el otro elemento hasta abajo */
+}
+
+.projects footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+}
+
+.projects footer span {
+    border-radius: 6px;
+    background: #eee;
+    font-size: 0.8rem;
+    padding: 2px 8px;
+}

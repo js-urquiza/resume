@@ -17,7 +17,7 @@ const Experience = (props) => {
             const endYear = work.endDate == null ? 'Current' : new Date(work.endDate).getFullYear()
             
             return (
-              <li key={work.name + work.position}>
+              <li key={work.index}>
                 <div className="heading">
                     <h3>
                       {work.name}{" "}
