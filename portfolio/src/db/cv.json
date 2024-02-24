@@ -85,13 +85,25 @@
     "summary": "Description…"
   }],
   "skills": [{
-    "name": "Web Development",
+    "name": "Javascript",
     "level": "Master",
     "keywords": [
       "HTML",
       "CSS",
       "JavaScript"
     ]
+  },{
+    "name": "HTML"
+  }, {
+    "name": "CSS"
+  }, {
+    "name": "Node.js"
+  }, {
+    "name": "Express.js"
+  }, {
+    "name": "MVC"
+  }, {
+    "name": "MySQL"
   }],
   "languages": [{
     "language": "English",

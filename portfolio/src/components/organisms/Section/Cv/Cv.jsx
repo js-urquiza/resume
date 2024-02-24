@@ -4,19 +4,17 @@ import cv from '../../../../db/cv.json'
 import Hero from '../../../molecules/Hero/Hero'
 import About from '../../../molecules/About/About'
 import Experience from '../../../molecules/Experience/Experience'
+import Skills from '../../../molecules/Skills/Skills'
 
 const Cv = () => {
-  
-  const data = cv;
   
   return (
     <>
       <main className='cv'>
-        <Hero data={data.basics} />
-        <section>
-          <About data={data.basics} />
-          <Experience data={data.work} />
-        </section>
+        <Hero data={cv.basics} />
+        <About data={cv.basics} />
+        <Experience data={cv.work} />
+        <Skills data={cv.skills} />
       </main>
     </>
   )
