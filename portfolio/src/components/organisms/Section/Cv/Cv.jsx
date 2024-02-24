@@ -3,6 +3,7 @@ import './Cv.css'
 import cv from '../../../../db/cv.json'
 import Hero from '../../../molecules/Hero/Hero'
 import About from '../../../molecules/About/About'
+import Experience from '../../../molecules/Experience/Experience'
 
 const Cv = () => {
   
@@ -14,6 +15,7 @@ const Cv = () => {
         <Hero data={data.basics} />
         <section>
           <About data={data.basics} />
+          <Experience data={data.work} />
         </section>
       </main>
     </>

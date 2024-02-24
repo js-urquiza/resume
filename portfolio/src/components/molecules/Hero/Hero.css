@@ -1,9 +1,8 @@
-.hero .container {
+.hero {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
 }
 
 .hero .info {
@@ -22,6 +21,10 @@
   font-weight: 500;
   color: #444;
   text-wrap: balance;
+}
+
+.hero figure {
+  margin: 8px 0px;
 }
 
 .hero img {

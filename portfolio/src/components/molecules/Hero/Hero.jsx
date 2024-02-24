@@ -9,7 +9,6 @@ const Hero = (props) => {
   return (
     <>
       <section className='hero'>
-        <div className="container">
           <div className="info">
             <h1>{name}</h1>
             <h2>{label}</h2>
@@ -23,7 +22,6 @@ const Hero = (props) => {
           <figure>
             <img src={image} alt={name} />
           </figure>
-        </div>
       </section>
     </>
   );
