@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import EmailIcon from "@mui/icons-material/Email";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PhoneIcon from "@mui/icons-material/Phone";
 import PlaceIcon from "@mui/icons-material/Place";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -27,7 +27,7 @@ const Hero = (props) => {
               {
                 email && (
                   <a href={`mailto:${email}`} title={`Send email to ${name}`} target='_blanc'>
-                    <EmailIcon className='icon' />
+                    <MailOutlineIcon className='icon' />
                   </a>
                 )
               }

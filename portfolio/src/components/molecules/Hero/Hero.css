@@ -16,13 +16,12 @@
   display: flex;
   gap: 8px;
   align-items: center;
-  padding: 8px;
 }
 
 .hero .icon {
   border: 1px solid #c0c0c0;
   border-radius: 8px;
-  padding: 8px;
+  padding: 4px;
   font-size: 1.2rem;
   color: #7d7d7d;
   transition: 0.5s;
@@ -33,19 +32,20 @@
 }
 
 .hero .place-icon {
-  font-size: 18px;
+  font-size: 0.9rem;
   color: #7d7d7d;
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .hero h2 {
   font-size: 1.1rem;
   font-weight: 500;
-  color: #444;
+  color: #666;
   text-wrap: balance;
+  line-height: 1.4;
 }
 
 .hero figure {
@@ -62,4 +62,14 @@
 .hero footer {
   display: flex;
   gap: 8px;
+}
+
+@media (min-width: 992px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero h2 {
+    font-size: 1.1rem;
+  }
 }

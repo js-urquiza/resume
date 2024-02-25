@@ -4,9 +4,8 @@ body {
 }
 
 main {
-    padding: 4rem;
+    padding: 1rem;
     margin: auto;
-    width: 100%;
 }
 
 a {
@@ -32,4 +31,12 @@ p {
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
+}
+
+@media (min-width: 992px) {
+    
+    main {
+        padding: 4rem;
+    }
+
 }
