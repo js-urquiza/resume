@@ -3,6 +3,14 @@
   margin: 0 auto 48px;
 }
 
+.cv a {
+  color: #213547;
+}
+
+.cv a:hover {
+  color: #324f69;
+}
+
 .cv h1 {
   font-size: 2rem;
 }

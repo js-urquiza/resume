@@ -54,13 +54,41 @@
     ]
   }],
   "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
+    "institution": "Digital House",
+    "title": "Full Stack Web Developer",
+    "url": "https://www.digitalhouse.com",
+    "area": "IT",
+    "studyType": "Specialization program",
+    "startDate": "2022-03-01",
+    "endDate": "2022-07-01",
     "score": "4.0",
+    "summary": "This unique combination of global business management, economics, communication, culture and languages makes the LiGEI a professional forged in an interdisciplinary career at an international level, practice-oriented with a global vision that responds to the needs of organizations that operate in different countries and demand highly qualified young people with the ability to achieve the best local and global results.",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }, {
+    "institution": "Universidad del Salvador",
+    "title": "Intercultural Economic Management",
+    "url": "https://www.usal.edu.ar",
+    "area": "Business",
+    "studyType": "Bachelor's Degree",
+    "startDate": "2017-03-01",
+    "endDate": "2022-02-01",
+    "score": "4.0",
+    "summary": "This unique combination of global business management, economics, communication, culture and languages makes the LiGEI a professional forged in an interdisciplinary career at an international level, practice-oriented with a global vision that responds to the needs of organizations that operate in different countries and demand highly qualified young people with the ability to achieve the best local and global results.",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }, {
+    "institution": "Universität Passau",
+    "title": "International Cultural and Business Studies",
+    "url": "https://www.usal.edu.ar",
+    "area": "Business",
+    "studyType": "Academic Exchange Programm",
+    "startDate": "2019-09-01",
+    "endDate": "2020-03-01",
+    "score": "4.0",
+    "summary": "This unique combination of global business management, economics, communication, culture and languages makes the LiGEI a professional forged in an interdisciplinary career at an international level, practice-oriented with a global vision that responds to the needs of organizations that operate in different countries and demand highly qualified young people with the ability to achieve the best local and global results.",
     "courses": [
       "DB1101 - Basic SQL"
     ]
@@ -101,6 +129,8 @@
   }, {
     "name": "Express.js"
   }, {
+    "name": "React"
+  }, {
     "name": "MVC"
   }, {
     "name": "MySQL"
@@ -124,28 +154,28 @@
     "name": "Alquiler24",
     "startDate": "2019-01-01",
     "endDate": "2021-01-01",
-    "description": "Alquiler24 is a web application designed to address the challenges of rental management in an environment characterized by constant changes and high inflation, such as that of Argentina. Given the diverse types of rental agreements, Alquiler24 enables users to track each contract with its specific details and update it according to price increases.",
+    "description": "Alquiler24 is a web application designed to address the challenges of rental management in an environment characterized by constant changes and high inflation, such as that of Argentina. This webapp enables users to track each contract with its specific details and update it according to price increases.",
     "highlights": [
       "Side project"
     ],
-    "url": "https://project.com/"
+    "url": "https://alquiler24.com/"
   },{
     "name": "Supermercado Alcer",
     "startDate": "2019-01-01",
     "endDate": "2021-01-01",
-    "description": "Description...",
+    "description": "Website developed for Alcer supermarket in Argentina. In addition to providing users with the ability to make purchases, administrators have exclusive access to a dedicated view for managing the status of purchase orders. The checkout process is seamlessly integrated with the MercadoLibre API to facilitate payment management.",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "Full stack ecommerce"
     ],
-    "url": "https://project.com/"
+    "url": "https://github.com/0322CDFSNCN16LAED/grupo-06"
   },{
-    "name": "Ecommerce",
+    "name": "Natalia Coaching",
     "startDate": "2019-01-01",
     "endDate": "2021-01-01",
-    "description": "Description...",
+    "description": "Simple landing page created for a coaching professional",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "Landing page"
     ],
-    "url": "https://project.com/"
+    "url": "https://www.natalia-coaching.de"
   }]
 }

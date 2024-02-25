@@ -4,7 +4,6 @@ import './Experience.css'
 const Experience = (props) => {
   
   const work = props.data;
-  console.log(work);
   
   return (
     <section className='experience'>

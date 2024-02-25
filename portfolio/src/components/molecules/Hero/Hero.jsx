@@ -26,14 +26,14 @@ const Hero = (props) => {
             <footer>
               {
                 email && (
-                  <a href={`mailto:${email}`} title={`Send email to ${name}`}>
+                  <a href={`mailto:${email}`} title={`Send email to ${name}`} target='_blanc'>
                     <EmailIcon className='icon' />
                   </a>
                 )
               }
               {
                 phone && (
-                  <a href={`tel:${phone}`} title={`Call to ${phone}`}>
+                  <a href={`tel:${phone}`} title={`Call to ${phone}`} target='_blanc'>
                     <PhoneIcon className='icon' />
                   </a>
                 )
@@ -41,7 +41,7 @@ const Hero = (props) => {
               {
                 profiles.map(({ network, url, username }) => {
                   return (
-                    <a key={network.index} href={url} title='Connect with me'>
+                    <a key={network.index} href={url} title='Connect with me' target='_blanc'>
                       <LinkedInIcon className='icon' />
                     </a>
                   )

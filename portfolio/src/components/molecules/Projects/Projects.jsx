@@ -15,7 +15,7 @@ const Projects = (props) => {
                   <li key={name.index}>
                     <article>
                       <header>
-                        <a href={url} title={`See ${name}`}>
+                        <a href={url} title={`See ${name}`} target='_black'>
                           <h3>{name}</h3>
                         </a>
                         <p>{description}</p>

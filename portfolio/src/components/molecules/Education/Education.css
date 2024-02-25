@@ -1,0 +1,30 @@
+.education .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education .area {
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    padding: 2px 8px;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+.education h4 {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.education ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.education .duration {
+    color: #7b7b7b;
+    font-weight: 500;
+}
